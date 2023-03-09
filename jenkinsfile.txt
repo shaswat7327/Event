@@ -1,6 +1,6 @@
 node {
   stage("Clone the project") {
-    git branch: 'main', url: 'https://github.com/shaswat7327/EMS.git'
+    git branch: 'main', url: 'https://github.com/shaswat7327/Event.git'
   }
 
   stage("Compilation") {
